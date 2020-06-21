@@ -131,3 +131,41 @@ h3 {
 .pricing-column {
   padding: 3% 2%;
 }
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin: 0;
+  }
+}
+
+/* footer */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 3% 20%;
+}
+
+.hcta {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 1% 25%;
+  background-color: fff;
+  text-align: center;
+}
+
+.social-icons {
+  margin: 5% 15px;
+}
